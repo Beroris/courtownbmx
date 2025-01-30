@@ -1,0 +1,59 @@
+main {
+    padding-top: 100px; /* Add space below the header/navbar */
+}
+
+main h1 {
+    font-size: 4rem; /* Larger font size for the main header */
+    font-weight: bold; /* Bold styling */
+    color: #f0f0f0; /* Light color for good contrast */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for contrast */
+    text-align: center;
+    display: inline-block;
+}
+
+.header-line {
+    border: none; /* Remove the default border */
+    border-top: 1px solid #f0f0f0; /* Add a white line */
+    width: 100%; /* Make the line stretch across the page */
+    margin: 20px 0; /* Add vertical spacing above and below the line */
+    opacity: 0.8; /* Slightly transparent for a subtle effect */
+}
+
+.events-content {
+    color: #f0f0f0; /* Light text for readability */
+    font-size: 1.1rem; /* Slightly larger size for general content */
+    line-height: 1.8; /* Improve readability */
+    margin: 0 auto; /* Center-align the content */
+    max-width: 800px; /* Limit the width for better layout */
+}
+
+.events-content h2 {
+    color: #f0f0f0; /* Keep the same color as the content */
+    font-size: 1.7rem; /* Slightly larger size for sub-headers */
+    margin-bottom: 10px; /* Add space below headers */
+    border-bottom: 1px solid #555; /* Subtle underline */
+    padding-bottom: 5px;
+}
+
+.events-content ul, .events-content ol {
+    margin-left: 20px; /* Indent lists */
+    margin-bottom: 20px; /* Add spacing below lists */
+}
+
+.events-content li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+.events-content a {
+    color: #c700c7; /* Purple color for links */
+    text-decoration: none; /* Remove underline */
+    border-bottom: 2px solid #c700c7; /* Add a subtle underline with the same purple color */
+    transition: color 0.3s, border-color 0.3s; /* Smooth hover effect */
+}
+
+.events-content a:hover {
+    color: #990099; /* Darken color on hover */
+    border-color: #990099;
+}
