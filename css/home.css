@@ -44,7 +44,9 @@ main {
 }
 
 .logo-info-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(1, auto);
     align-items: center;
     padding: 40px 20px;
     justify-content: center;
@@ -53,16 +55,15 @@ main {
 
 .hero-logo {
     height: 330px;
-    margin-left: 5%;
+    margin-left: 5rem;
     margin-right: 50px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    flex-shrink: 0;
 }
 
 .hero-info {
-    flex: 0 0 45%;
-    padding-left: 8%;
+    padding-left: 2rem;
+    margin-right: 1rem;
 }
 
 .hero-title {
@@ -89,8 +90,9 @@ main {
         height: 400px;
     }
     .logo-info-container{
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(2, auto);
         align-items: start;
-        flex-direction: column;
         margin-left: 0;
     }
     .hero-logo {
@@ -120,20 +122,19 @@ main {
     }
     .logo-info-container {
         align-items: center;
-        padding: 20px 0;
+        padding: 12px;
         margin-left: 0;
     }
     .hero-logo {
         height: 200px;
-        margin-right: 0;
-        margin-left: 0;
         margin-bottom: 15px;
+        margin-top: 1rem;
     }
     .hero-info {
         text-align: left;
         padding-left: 0;
     }
-        .hero-title{
+    .hero-title{
         text-align: center;
     }
 }

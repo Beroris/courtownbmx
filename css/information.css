@@ -59,15 +59,69 @@ main h1 {
 }
 
 .info-section a {
-    color: #960096; /* Purple link color */
+    color: #c700c7; /* Purple link color */
     text-decoration: none; /* Remove underline */
-    border-bottom: 1px solid #960096;
+    border-bottom: 1px solid #c700c7;
     transition: color 0.3s, border-color 0.3s;
 }
 
 .info-section a:hover {
-    color: #f0f0f0; /* Change to white on hover */
-    border-color: #f0f0f0; /* White underline on hover */
+    color: #990099; /* Change to white on hover */
+    border-color: #990099; /* White underline on hover */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.contact-form-row {
+    display: flex;
+    width: 100%;
+}
+
+.contact-form-row .contact-form-input {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.contact-form-input {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #333;
+}
+
+.contact-form-input:focus {
+    outline: none;
+    border-color: #990099;
+}
+
+.contact-form textarea {
+    min-height: 6rem;
+    resize: vertical;
+}
+
+.contact-form button {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 10rem;
+    background-color: #c700c7;
+    color: white;
+    border-color: #990099;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
 }
 
 .map {

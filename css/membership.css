@@ -47,13 +47,13 @@ main h1 {
 }
 
 .membership-content a {
-    color: #960096; /* Purple color for links */
+    color: #c700c7; /* Purple color for links */
     text-decoration: none; /* Remove underline */
-    border-bottom: 1px solid #960096; /* Add a subtle underline with the same purple color */
+    border-bottom: 1px solid #c700c7; /* Add a subtle underline with the same purple color */
     transition: color 0.3s, border-color 0.3s;
 }
 
 .membership-content a:hover {
-    color: #f0f0f0; /* Change to white on hover */
-    border-color: #f0f0f0;
+    color: #990099;
+    border-color: #990099;
 }
