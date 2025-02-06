@@ -14,11 +14,11 @@ main h1 {
 }
 
 .header-line {
-    border: none; /* Remove the default border */
-    border-top: 1px solid #f0f0f0; /* Add a white line */
-    width: 100%; /* Make the line stretch across the page */
-    margin: 20px 0; /* Add vertical spacing above and below the line */
-    opacity: 0.8; /* Slightly transparent for a subtle effect */
+    border: none;
+    border-top: 1px solid #f0f0f0;
+    width: 100%;
+    margin: 20px 0;
+    opacity: 0.8;
 }
 
 .events-content {
@@ -56,4 +56,12 @@ main h1 {
 .events-content a:hover {
     color: #990099; /* Darken color on hover */
     border-color: #990099;
+}
+
+/* Tablet and small screens */
+@media screen and (max-width: 900px) {
+    .events-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }

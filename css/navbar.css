@@ -13,6 +13,20 @@ a {
     color: #f0f0f0;
 }
 
+#navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: top 0.5s ease-in-out;
+    z-index: 1000;
+    background: rgba(34, 34, 34, 0.9);
+}
+
+.hidden {
+    top: -80px; /* Move navbar out of view */
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;

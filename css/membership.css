@@ -57,3 +57,11 @@ main h1 {
     color: #990099;
     border-color: #990099;
 }
+
+/* Tablet and small screens */
+@media screen and (max-width: 900px) {
+    .membership-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
